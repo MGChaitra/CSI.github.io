@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+    <section>
+        <head>
+        <style>
+    
+            /* Styling the body */
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            /* Styling section, giving background
+                image and dimensions */
+            section {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.5),#382318);
+                position: relative;
+                padding: 0 5%;
+                display: flex;
+                background-size: cover;
+            }
+            
+            /* Styling the left floating section */
+            section .leftBox {
+                width: 50%;
+                height: 100%;
+                float: left;
+                padding: 50px;
+                box-sizing: border-box;
+            }
+            
+            /* Styling the background of
+                left floating section */
+            section .leftBox .content {
+                color: #fff;
+                background: rgba(0, 0, 0, 0.5);
+                padding: 40px;
+                transition: .5s;
+            }
+            
+            /* Styling the hover effect
+                of left floating section */
+            section .leftBox .content:hover {
+                background: #e53a2d;
+            }
+            
+            /* Styling the header of left
+                floating section */
+            section .leftBox .content h1 {
+                margin: 0;
+                padding: 0;
+                font-size: 50px;
+                text-transform: uppercase;
+            }
+            
+            /* Styling the paragraph of
+                left floating section */
+            section .leftBox .content p {
+                margin: 10px 0 0;
+                padding: 0;
+            }
+            
+            /* Styling the three events section */
+            section .events {
+                position: relative;
+                width: 50%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                float: right;
+                box-sizing: border-box;
+            }
+            
+            /* Styling the links of
+            the events section */
+            section .events ul {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                margin: 0;
+                padding: 40px;
+                box-sizing: border-box;
+            }
+            
+            /* Styling the lists of the event section */
+            section .events ul li {
+                list-style: none;
+                background: #fff;
+                box-sizing: border-box;
+                height: 200px;
+                margin: 15px 0;
+            }
+            
+            /* Styling the time class of events section */
+            section .events ul li .time {
+                position: relative;
+                padding: 20px;
+                background: #262626;
+                box-sizing: border-box;
+                width: 30%;
+                height: 100%;
+                float: left;
+                text-align: center;
+                transition: .5s;
+            }
+            
+            /* Styling the hover effect
+                of events section */
+            section .events ul li:hover .time {
+                background: #e53a2d;;
+            }
+            
+            /* Styling the header of time
+                class of events section */
+            section .events ul li .time h2 {
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #fff;
+                font-size: 60px;
+                line-height: 30px;
+            }
+            
+            /* Styling the texts of time
+            class of events section */
+            section .events ul li .time h2 span {
+                font-size: 30px;
+            }
+            
+            /* Styling the details
+            class of events section */
+            section .events ul li .details {
+                padding: 20px;
+                background: #fff;
+                box-sizing: border-box;
+                width: 70%;
+                height: 100%;
+                float: left;
+            }
+            
+            /* Styling the header of the
+            details class of events section */
+            section .events ul li .details h3 {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                font-size: 22px;
+            }
+            
+            /* Styling the lists of details
+            class of events section */
+            section .events ul li .details p {
+                position: relative;
+                margin: 10px 0 0;
+                padding: 0;
+                font-size: 16px;
+            }
+            
+            /* Styling the links of details
+            class of events section */
+            section .events ul li .details a {
+                display: inline-block;
+                text-decoration: none;
+                color: blue;
+                padding: 10px 15px;
+                border: 1.5px solid #000000;
+                margin-top: 8px;
+                font-size: 18px;
+                transition: .5s;
+            }
+            
+            /* Styling the details class's hover effect */
+            section .events ul li .details a:hover {
+                background: #e53a2d;
+                color: #fff;
+                border-color: #e53a2d;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <section>
+            <div class="leftBox">
+                <div class="content">
+                    <h1>
+                        WHAT'S NEW..!?
+                    </h1>
+                    
+    <p>Lorem ipsumsssss repellat soluta non explicabo, iste quasi deserunt fuga. Mollitia dicta voluptatibus consequuntur! Ea molestiae voluptatum omnis repellendus id nemo dolorem, magni, commodi officia aliquam rerum eligendi a iusto iste, quia quibusdam aspernatur eius facilis libero nisi accusamus illum. Aliquam in assumenda quidem ratione eos quaerat repellat saepe, 
+                    </p>
+    
+                </div>
+            </div>
+    
+            <div class="events">
+                <ul>
+                    <li>
+                        <div class="time">
+                            <h2>
+                                15 <br><span>March</span>
+                            </h2>
+                        </div>
+                        <div class="details">
+                            <h3>
+                                DEBATE COMPITION...!
+                            </h3>
+                            
+    <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugvoluptate atque excepturi praesentium obcaecati illum iusto la? 
+                            </p>
+    
+    
+                            <a href="#">View Details</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </li>
+    
+                    <li>
+                        <div class="time">
+                            <h2>
+                                27 <br><span>May</span>
+                            </h2>
+                        </div>
+                        <div class="details">
+                            <h3>
+                                POSTER MAKING COMPITION...!
+                            </h3>
+                            
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sed rem sunt, temporibusaut quisquam cum exercitatit. quod?
+                            </p>
+    
+                            <a href="#">View Details</a>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </li>
+    
+                    <li>
+                        <div class="time">
+                            <h2>
+                                12 <br><span>August</span>
+                            </h2>
+                        </div>
+                        <div class="details">
+                            <h3>
+                                CULTURAL EVENTS...!
+                            </h3>
+                            
+    <p>
+                                Lorem, ipsum dolor sit amet consectetur adipifacilis temporibus, atque maxime adipisci repudiandae ducimus. t!
+                            </p>
+    
+    
+                            <a href="#">View Details</a>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </body>
+    </section>
+    <hr>
+    <section>
+        <body>
+        
+        <div class="HEAD">
+            <h1>GALLERY</h1>
+            <hr>
+            <div class="slide">
+                <div class="content">
+                    <div class="wrapper">
+                        <div class="card">
+                            <div class="igcontent">
+                                <span class="overlay"></span>
+    
+                                <div class="cardimage">
+                                    <img src="vid/group.jfif" alt="" class="cadimg">
+                                </div>
+                            </div>
+                            <div class="cardcontent">
+                                <h2 class="name">FACULTY</h2>
+                                <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam obcaecati quibusdam sunt! Sint atque esse fugiat eveniet delectus repellendus culpa, iusto molestiae totam voluptatem aspernatur doloremque velit nobis suscipit? Quod, enim odit! At reiciendis minus quibusdam laborum maiores doloribus magni recusandae debitis eum aut possimus pariatur similique non quo commodi, quidem voluptatibus minima eveniet in vitae assumenda! Amet consectetur numquam error nemo harum magni consequuntur distinctio, corporis assumenda eveniet quam velit fugit impedit expedita iste ducimus debitis animi. Fugit suscipit harum nihil earum quos quidem quasi deserunt obcaecati ex facilis, magnam corrupti ad perspiciatis, labore vel similique, modi esse! Nulla?</p>
+                                
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </body>
+        <BOdy>
+        <div class="container2">
+            <dIv class="box">
+            <div class="imgbox">
+                <img src="vid/academic.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Acadamic</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vero eos non ducimus alias ipsa, tenetur itaque excepturi. Quos, molestias.</P>
+                </div>
+            </div>
+        </dIv>
+        <dIv class="box">
+            <div class="imgbox">
+                <img src="vid/cultural.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>College Fest</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vero eos non ducimus alias ipsa, tenetur itaque excepturi. Quos, molestias.</P>
+                </div>
+            </div>
+        </dIv>
+        <dIv class="box">
+            <div class="imgbox">
+                <img src="vid/placements.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>placements</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vero eos non ducimus alias ipsa, tenetur itaque excepturi. Quos, molestias.</P>
+                </div>
+            </div>
+        </dIv>
+        <dIv class="box">
+            <div class="imgbox">
+                <img src="vid/sports.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Sports</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vero eos non ducimus alias ipsa, tenetur itaque excepturi. Quos, molestias.</P>
+                </div>
+            </div>
+        </dIv>
+        <dIv class="box">
+            <div class="imgbox">
+                <img src="vid/academic.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Acadamic</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vero eos non ducimus alias ipsa, tenetur itaque excepturi. Quos, molestias.</P>
+                </div>
+            </div>
+        </div>
+        <dIv class="box">
+            <div class="imgbox">
+                <img src="vid/academic.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Acadamic</h2>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vero eos non ducimus alias ipsa, tenetur itaque excepturi. Quos, molestias.</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    </BOdy>
+    </section>
+    <section>
+        <section class="slate padding-sm quote quote quote">
+            <article>
+                      <div class="grid grid-lg grid-center padding-top-sm">
+                        <div class="unit-1-4 unit-1-2-md unit-1-1-sm margin-bottom-md">
+                    <div class="text-center">
+                      <h2 class="icon margin-bottom-sm">
+                                        <img class="animated-icon" src="https://media.tdp-arch.com/Calendar_Icon.gif?timestamp=Sun Dec 11 2022 23:03:04 GMT+0530 (India Standard Time)" data-src="https://media.tdp-arch.com/Calendar_Icon.gif" alt="">
+                                    </h2>
+                      <h5 class="bold-highlight text-uppercase animate-count">Over <strong>12</strong> years in business</h5>
+                      
+                    </div>
+                  </div>
+                        <div class="unit-1-4 unit-1-2-md unit-1-1-sm margin-bottom-md">
+                    <div class="text-center">
+                      <h2 class="icon margin-bottom-sm">
+                                        <img class="animated-icon" src="https://media.tdp-arch.com/Building_Icon2.gif?timestamp=Sun Dec 11 2022 23:03:04 GMT+0530 (India Standard Time)" data-src="https://media.tdp-arch.com/Building_Icon2.gif" alt="">
+                                    </h2>
+                      <h5 class="bold-highlight text-uppercase animate-count"><strong>2329</strong> projects completed</h5>
+                      
+                    </div>
+                  </div>
+                        <div class="unit-1-4 unit-1-2-md unit-1-1-sm margin-bottom-md">
+                    <div class="text-center">
+                      <h2 class="icon margin-bottom-sm">
+                                        <img class="animated-icon" src="https://media.tdp-arch.com/Map_Icon2.gif?timestamp=Sun Dec 11 2022 23:03:04 GMT+0530 (India Standard Time)" data-src="https://media.tdp-arch.com/Map_Icon2.gif" alt="">
+                                    </h2>
+                      <h5 class="bold-highlight text-uppercase animate-count">Licensed in<br><strong>34</strong> States</h5>
+                      
+                    </div>
+                  </div>
+                    </div>
+            </article>
+          </section>
+    </section>
+    <section>
+        
+        <!----- FONT AWESOME CSS FOR ICONS FONTS ------>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <body>
+         <footer>
+            <div class="container3">
+                <div class="row1">
+                      <div class="col1" id="company">
+                          <img src="vid/ChaitraMG_2KL20CS022.png" alt="" class="logo">
+                          <p>
+                            The seed for the Computer Society of India (CSI) was first shown in the year 1965 with a handful of IT enthusiasts who were a computer user group and felt the need to organize their activities.
+                          </p>
+                          <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                      </div>
+    
+    
+                      <div class="col1" id="services">
+                         <h3>Quick Links</h3>
+                         <div class="links">
+                            <a href="#">Admissions</a>
+                            <a href="#">Calender of the year</a>
+                            <a href="#">AICTE Aproval letter</a>
+                            <a href="#">Vision/Mission</a>
+                         </div>
+                      </div>
+    
+                      <div class="col1" id="useful-links">
+                         <h3>More</h3>
+                         <div class="links">
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Our Policy</a>
+                            <a href="#">Help</a>
+                         </div>
+                      </div>
+    
+                      <div class="col1" id="contact">
+                          <h3>Contact</h3>
+                          <div class="contact-details">
+                             <i class="fa fa-location"></i>
+                             <p>KLE Dr.MSSCET <br> Belagavi, Karnataka</p>
+                          </div>
+                          <div class="contact-details">
+                             <i class="fa fa-phone"></i>
+                             <p>+91-2221144556</p>
+                          </div>
+                      </div>
+                </div>
+    
+                <div class="row1">
+                      <div class="form">
+                        <form action="">
+                            <input type="text" placeholder="Email here...">
+                            <button><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                      </div>
+                </div>
+    
+            </div>
+         </footer>
+    </body>
+    </section>
+ 
