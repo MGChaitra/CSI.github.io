@@ -10,7 +10,6 @@
     height: 100vh;
     background-image: linear-gradient(rgba(189, 84, 84, 0.5));
     position: relative;
-    padding: 0 5%;
     display: flex;
     align-self: center;
     justify-content: center;
